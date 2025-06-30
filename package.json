@@ -1,0 +1,43 @@
+{
+  "name": "weather-command",
+  "version": "1.0.1",
+  "description": "Этот плагин добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
+  "main": "index.js",
+  "author": "I_Sahorok",
+  "botpanel": {
+    "categories": [
+      "Команды",
+      "Утилиты"
+    ],
+    "icon": "CloudSun",
+    "dependencies": {
+      "parser-keksik": "*"
+    },
+    "settings": {
+      "infoMessage": {
+        "type": "string",
+        "label": "Сообщения о погоде",
+        "description": "Основное сообщение.",
+        "default": "Погода в {city}: {temp}°C, {description}. Ветер: {windSpeed} м/с, порывы до {windGust} м/с."
+      },
+      "usageMessage": {
+        "type": "string",
+        "label": "Сообщение об ошибке",
+        "description": "Отправляется, если не указан город.",
+        "default": "/weather <город>"
+      },
+      "notFoundMessage": {
+        "type": "string",
+        "label": "Сообщение если 'Город не найден'",
+        "description": "Отправляется, если город не был найден.",
+        "default": "Не удалось найти город: {city}. Попробуй указать точное название."
+      },
+      "errorMessage": {
+        "type": "string",
+        "label": "Сообщение об общей ошибке",
+        "description": "Отправляется при ошибках сети или API.",
+        "default": "Произошла ошибка при получении данных о погоде. Попробуйте позже."
+      }
+    }
+  }
+}
