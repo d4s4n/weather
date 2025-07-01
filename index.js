@@ -18,18 +18,14 @@ async function onLoad(bot, options) {
                 permissions: PERMISSION_NAME,
                 owner: PLUGIN_OWNER_ID,
                 cooldown: 10,
-                allowedChatTypes: ['chat', 'private', 'clan', 'global'],
+                allowedChatTypes: ['chat', 'private', 'clan'],
                 args: [{
                     name: 'city',
-                    type: 'greedy_string',
+                    type: 'string',
                     required: true,
                     description: 'Название города'
                 }]
             });
-        }
-
-        onInvalidArguments(bot, typeChat, user) {
-            bot.api.sendMessage(typeChat, settings.usageMessage, user.username);
         }
 
         async handler(bot, typeChat, user, {
@@ -102,7 +98,7 @@ async function onLoad(bot, options) {
 
             } catch (error) {
                 log(`[${PLUGIN_OWNER_ID}] Ошибка API для города '${city}': ${error.message}`);
-                bot.api.sendMessage(typeChat, settings.errorMessage, user.username);
+                bot.api.sendMessage(typeChat, 'Произошла ошибка при получении данных о погоде. Попробуйте позже.', user.username);
             }
         }
     }
