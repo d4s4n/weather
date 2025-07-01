@@ -18,7 +18,7 @@
         "type": "string",
         "label": "Сообщения о погоде",
         "description": "Основное сообщение.",
-        "default": "Погода в {city}: {temp}°C, {description}. Ветер: {windSpeed} м/с, порывы до {windGust} м/с."
+        "default": "Погода в {city}: {temp}°C, {description}. Ветер: {windSpeed} км/ч, порывы до {windGust} км/ч."
       },
       "notFoundMessage": {
         "type": "string",
