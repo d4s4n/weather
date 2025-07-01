@@ -1,6 +1,6 @@
 {
   "name": "weather-command",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Добавляет вашему боту команду /weather, которая показывает погоду по указанному городу. Информация предоставляется через Open-Meteo API.",
   "main": "index.js",
   "author": "I_Sahorok",
