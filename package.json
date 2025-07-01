@@ -6,8 +6,7 @@
   "author": "I_Sahorok",
   "botpanel": {
     "categories": [
-      "Команды",
-      "Утилиты"
+      "Команды"
     ],
     "icon": "CloudSun",
     "dependencies": {
