@@ -1,5 +1,9 @@
 # Плагин команды погоды
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Weather_icon_-_sunny.svg/1024px-Weather_icon_-_sunny.svg.png" alt="Солнце" width="150"/>
+</p>
+
 Плагин для добавления команды /weather, позволяющей пользователям проверять погоду в любом городе с использованием [Open-Meteo API](https://open-meteo.com/). Плагин предоставляет информацию о погоде в реальном времени, включая температуру, описание погоды, скорость ветра и порывы.
 
 ## Использование
