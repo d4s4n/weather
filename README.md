@@ -1,7 +1,8 @@
 # Плагин команды погоды
 
 <p align="center">
-  <img src="https://static.vecteezy.com/system/resources/previews/420/219/1/original/sun-clouds-weather-isolated-icon-white-background-vector.jpg" alt="Солнце" width="150"/>
+  <img src="[https://static.vecteezy.com/system/resources/previews/420/219/1/original/sun-clouds-weather-isolated-icon-white-background-vector.jpg](https://raw.githubusercontent.com/github/explore/main/topics/weather/weather.png
+)" alt="Солнце" width="150"/>
 </p>
 
 Плагин для добавления команды /weather, позволяющей пользователям проверять погоду в любом городе с использованием [Open-Meteo API](https://open-meteo.com/). Плагин предоставляет информацию о погоде в реальном времени, включая температуру, описание погоды, скорость ветра и порывы.
