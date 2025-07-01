@@ -8,7 +8,7 @@
     "categories": [
       "Команды"
     ],
-    "icon": "CloudSun",
+    "icon": "cloud-sun",
     "dependencies": {
       "parser-keksik": "*"
     },
